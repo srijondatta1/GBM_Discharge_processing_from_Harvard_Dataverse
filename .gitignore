@@ -1,0 +1,41 @@
+# ----------------------------------------------------------------------
+# Environment and Editor Files
+# ----------------------------------------------------------------------
+# Virtual environments
+venv/
+.venv/
+env/
+*.pyc
+__pycache__/
+
+# VS Code workspace settings
+.vscode/
+
+# ----------------------------------------------------------------------
+# Jupyter Notebook Artifacts
+# ----------------------------------------------------------------------
+.ipynb_checkpoints
+*~
+
+# ----------------------------------------------------------------------
+# Hydrology / GIS Output Files
+# ----------------------------------------------------------------------
+# Ignore common data/output directories
+data/
+output/
+results/
+temp/
+PDF_Plot_Reports/
+
+# Large common data formats
+*.nc
+*.tif
+*.zip
+*.tar.gz
+
+# Ignore the final data and report files
+*.xlsx
+*.csv
+
+# Temporary/Intermediate files
+Outlest_subbasin.csv
